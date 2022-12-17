@@ -47,9 +47,7 @@ public class MyDate {
     	 this.day = Integer.parseInt(format_day.format(date));
     	 this.month = Integer.parseInt(format_month.format(date));
     	 this.year = Integer.parseInt(format_year.format(date));
-    	 
-    	 
-    	  	
+    	
      	
      	// THIRD method
      	
@@ -59,14 +57,13 @@ public class MyDate {
      	
      	use getDate() to return the date
      	 */
-     	
-    	
-    	 
-    	
+    
 		
     }
     
+	
     /*Direct get the full date
+    
     public String getDate() {
     	return format.format(date);
     }
